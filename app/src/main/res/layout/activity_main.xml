@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:id="@+id/welcome"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Retrofit Example"/>
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/welcome"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Get Posts"
+        android:id="@+id/getBtn"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/getBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Get Comments"
+        android:id="@+id/getBtnComments"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/getBtnComments"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Post Posts"
+        android:id="@+id/postBtnPosts"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/postBtnPosts"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Put Posts"
+        android:id="@+id/putPostBtn"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/putPostBtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Delete Posts"
+        android:id="@+id/deletePostBtn"/>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"
+        android:text="https://jsonplaceholder.typicode.com/"/>
+</RelativeLayout>
